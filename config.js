@@ -5,7 +5,7 @@ window.Config = {
   SiteName: 'StarCraft监控站',
 
   // 站点链接
-  SiteUrl: '/',
+  SiteUrl: '',
 
   // UptimeRobot Api 域名
   // 只需填写域名部分，默认为官网域名
@@ -17,22 +17,23 @@ window.Config = {
   // 支持 Monitor-Specific 和 Read-Only 两只 Api Key
   ApiKeys: [
     'm791663591-5ae066e87dbab3c7e6986259',
+    'm791664557-7254aef93d18834260781f41',
   ],
 
   // 是否显示监测站点的链接
-  ShowLink: true,
+  ShowLink: false,
 
   // 日志天数
   // 虽然免费版说仅保存60天日志，但测试好像API可以获取90天的
   // 不过时间不要设置太长，容易卡，接口请求也容易失败
-  CountDays: 35,
+  CountDays: 30,
 
   // 导航栏菜单
   Navi: [
-//    {
-//      text: 'Homepage',
-//      url: 'https://status.org.cn/'
-//    },
+    {
+      text: '博客',
+      url: 'http://zjaapig.orgs.ml/'
+    },
 //    {
 //      text: 'GitHub',
 //      url: 'https://github.com/yb/uptime-status'
